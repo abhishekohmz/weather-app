@@ -1,0 +1,161 @@
+.bg{
+    background: url(../images/field-fog-trees-blue-weather-cold-4k-5k-ee.jpg);
+    background-size: cover;
+    padding: 20px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 450px;
+    height: 600px;
+    background-color: bisque;
+    background: url(../images/R.jpeg);
+   border-radius: 10%;
+   border-style: outset;
+   box-shadow: 0 0  20px;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 80px;
+
+
+}
+.input input{
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    padding:20px ;
+}
+.search img{
+    width: 50px;
+    cursor: pointer;
+    display: flex;
+}
+.waether-image{
+    display: flex;
+    justify-content: center;
+}
+.waether-image img{
+    width: 150px;
+    padding-top: 60px;
+    margin-left: 20%;
+}
+.weather-temp{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    margin-right: 20%;
+    font-weight:bold;
+
+}
+.weather-location{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-right: 20%;
+}
+.element{
+    display:flex;
+    justify-content:space-evenly;
+    padding-top: 50px;
+}
+
+.element img{
+    width: 70px;
+}
+.humidity-name{
+    display: flex;
+    justify-content: center;
+    font-weight:bold;
+    font-size: 20px;
+}
+.humidity-per{
+    display: flex;
+    justify-content: center;
+    font-size:20px;
+    font-weight: bold;
+}
+.wind-name{
+    display: flex;
+    justify-content: center;
+    font-weight:bold;
+    font-size: 20px;
+
+
+}
+.wind-speed{
+    display: flex;
+    justify-content: center;
+    font-size:20px;
+    font-weight: bold;
+
+
+}
+
+@media screen and (max-width:576px) {
+    .input{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding-top: 80px;
+    }
+
+    .container{
+        width: 100%;
+        height: max-content;
+    }
+    .waether-image{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .waether-image img{
+        width: 150px;
+        margin-left: 10px;
+        margin-top: -40px;
+    }
+    .weather-temp{
+       margin-left: 80px;
+       margin-top: -50px;
+    }
+    .weather-location{
+        margin-left: 80px;
+
+    }
+    .element{
+        display:flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        margin-top: -50px;
+    }
+    .element img{
+        width: 70px;
+    }
+    .humidity{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .wind{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .bg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 20px;
+    }
+    
+    
+}
